@@ -341,13 +341,13 @@ a.testHover:hover {
 
     #main {
 
-
         visibility: visible;
+
     }
 
     #banner-image2 {
 
-        width: 90vw;
+        width: 90%;
         margin-top: 3vw;
 
     }
@@ -370,10 +370,14 @@ a.testHover:hover {
 
     #facebook {
 
+        position: fixed;
+        bottom: 0px;
+        right: 20%;
         margin-left: 0px;
-        margin-right: 0px;
-        margin-top: 16px;
+        margin-right: -20px;
+        margin-top: 10px;
         margin-bottom: 16px;
+        padding-bottom: 10px;
 
     }
 
@@ -381,7 +385,10 @@ a.testHover:hover {
     #linkedin {
 
 
-        margin-left: 0px;
+        position: fixed;
+        bottom: 0px;
+        left: 20%;
+        margin-left: -20px;
         margin-right: 0px;
         margin-top: 0px;
         margin-bottom: 16px;
@@ -394,10 +401,10 @@ a.testHover:hover {
 
 
         background-color: #292b2c;
-        width: 58px;
-        top: 128px;
-
-        height: 175px;
+        width: 100%;
+        top: auto;
+        bottom: 0px;
+        height: 60px;
 
 
 
