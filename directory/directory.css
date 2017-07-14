@@ -1,0 +1,39 @@
+.darken {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.0),
+            rgba(0, 0, 0, 0.5)
+        ), url(headshot.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    display:block;
+    alignment: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.b{
+    font-size: 0.6em;
+    position: absolute;
+    bottom:0;
+    color:white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.m {
+    font-size: 0.8em;
+    color: ghostwhite;
+    position: absolute;
+    bottom:0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.m p{
+    line-height: 0%;
+}
+* {
+    box-sizing: border-box;
+}
