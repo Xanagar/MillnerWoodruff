@@ -366,7 +366,8 @@ a.testHover:hover {
 
     #banner-image2 {
 
-        width: 90%;
+
+        width: 90vw;
         margin-top: 3vw;
 
     }
@@ -375,7 +376,7 @@ a.testHover:hover {
 
     div.banner {
         position: fixed;
-        width: 100%;
+        width: 100vw;
         margin-top: -15px;
 
 
