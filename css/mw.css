@@ -584,6 +584,7 @@ a.testHover:hover {
     p {
 
         font-size: 16px;
+        line-height: 22px;
     }
 
     h1 {
@@ -617,6 +618,11 @@ a.testHover:hover {
     h8 {
 
         font-size: 12px;
+    }
+
+    #titleBanner1 {
+
+        font-size: 18px;
     }
 
 }
