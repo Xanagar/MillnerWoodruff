@@ -8,6 +8,7 @@
     <title>Millner | Woodruff CPAs</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
+
     <link rel="stylesheet" href="css/mw.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css">
@@ -17,6 +18,15 @@
 { "prop": "width", "breakpoints": [0, 320, 481, 641, 961, 1025, 1281] }
 ]}'>
 
+
+
+<script
+    src="https://code.jquery.com/color/jquery.color.plus-names-2.1.2.js"
+    integrity="sha256-MyufSJPYmyLJzomPsAOszwxMNH2iQOeZXhMAKfh04P8="
+    crossorigin="anonymous">
+
+
+</script>
 
 
 <div id="mySidenav" class="sidenav" style=" z-index: 999999999">
@@ -157,26 +167,27 @@
                     <!--<h1 style="text-align: center; font-size:28px">About Us</h1>-->
                     <p>Lorem ipsum dolor sit amet, mea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel. Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in. Id pri tibique lobortis. Autem vidisse maiorum et mel. </p>
                     <p>Lorem ipsum dolor sit amet, mea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel. Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in. Id pri tibique lobortis. Autem vidisse maiorum et mel. </p>
-                    <div class="row" style="padding:50px; padding-top: 15px; text-align: center; align-content: center">
 
-
-                        <img src="people2.jpg" style="width: 125%; height: 125%">
-                        <!--
-
-                        <div class="col-a-6">
-                            <img src="HeadShot.png">
-                            <h6>Founder 1</h6>
-                        </div>
-                        <div class="col-a-6">
-                            <img src="HeadShot.png">
-                            <h6>Founder 2</h6>
-                        </div>
-
-                        -->
-                    </div>
 
 
                 </div>
+            </div>
+            <div class="row" style="padding:50px; padding-top: 15px; text-align: center; align-content: center">
+
+
+                <img src="people2.jpg" style="width: 125%; height: 125%">
+                <!--
+
+                <div class="col-a-6">
+                    <img src="HeadShot.png">
+                    <h6>Founder 1</h6>
+                </div>
+                <div class="col-a-6">
+                    <img src="HeadShot.png">
+                    <h6>Founder 2</h6>
+                </div>
+
+                -->
             </div>
 
         </div>
@@ -219,7 +230,7 @@
                         </div>
 
 
-                        <div id="articleBox1" style="text-align: center; width: 80%; height: 75px; background-color: #e6e6e6; margin-left: 10%; align-content: center;">
+                        <div id="articleBox1" style="filter: opacity(0.9); text-align: center; width: 80%; height: 75px; background-color: #e6e6e6; margin-left: 10%; align-content: center;">
 
 
 
@@ -267,7 +278,7 @@
                         </div>
 
 
-                        <div id="articleBox2" style="text-align: center; width: 80%; height: 75px; background-color: #e6e6e6; margin-left: 10%; align-content: center; text-align: center; bottom: 0px; vertical-align: middle">
+                        <div id="articleBox2" style="filter: opacity(0.9);text-align: center; width: 80%; height: 75px; background-color: #e6e6e6; margin-left: 10%; align-content: center; text-align: center; bottom: 0px; vertical-align: middle">
 
 
 
@@ -315,7 +326,7 @@
                         </div>
 
 
-                        <div id="articleBox3" style="text-align: center; width: 80%; height: 75px; background-color: #e6e6e6; margin-left: 10%; align-content: center; text-align: center; bottom: 0px; vertical-align: middle">
+                        <div id="articleBox3" style="filter: opacity(0.9);text-align: center; width: 80%; height: 75px; background-color: #e6e6e6; margin-left: 10%; align-content: center; text-align: center; bottom: 0px; vertical-align: middle">
 
 
 
@@ -376,6 +387,8 @@
 
 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script>
     $(document).ready(function(){
 
@@ -395,13 +408,41 @@
 
 
 
+        $( "#articleBox1" ).animate({
+            backgroundColor: "#520184"
+        }, 200);
+
+        $( "#articleTitle1" ).animate({
+            color : "white"
+        }, 200);
+        $( "#articleAuthor1" ).animate({
+            color : "white"
+        }, 200);
+
+        $( "#articleDateBar1" ).animate({
+            backgroundColor : "#e6e6e6"
+        }, 200);
+
+        $( "#articleDate1" ).animate({
+            color : "#4d4d4d"
+        }, 200);
+
+
+
+
+
+        /*
+
 
         $("#articleBox1").css("background-color", "#520184");
         $("#articleTitle1").css("color", "white");
         $("#articleAuthor1").css("color", "white");
         $("#articleDateBar1").css("background-color", "#e6e6e6");
         $("#articleDate1").css("color", "#4d4d4d");
+
+        */
         $("#article1").css("border", "solid #520184")
+
 
 
 
@@ -419,11 +460,25 @@
     });
 
     $("#article2").hover(function() {
-        $("#articleBox2").css("background-color", "#520184");
-        $("#articleTitle2").css("color", "white");
-        $("#articleAuthor2").css("color", "white");
-        $("#articleDateBar2").css("background-color", "#e6e6e6");
-        $("#articleDate2").css("color", "#4d4d4d");
+
+        $( "#articleBox2" ).animate({
+            backgroundColor: "#520184"
+        }, 200);
+
+        $( "#articleTitle2" ).animate({
+            color : "white"
+        }, 200);
+        $( "#articleAuthor2" ).animate({
+            color : "white"
+        }, 200);
+
+        $( "#articleDateBar2" ).animate({
+            backgroundColor : "#e6e6e6"
+        }, 200);
+
+        $( "#articleDate2" ).animate({
+            color : "#4d4d4d"
+        }, 200);
 
         $("#article2").css("border", "solid #520184")
 
@@ -440,11 +495,24 @@
     });
 
     $("#article3").hover(function() {
-        $("#articleBox3").css("background-color", "#520184");
-        $("#articleTitle3").css("color", "white");
-        $("#articleAuthor3").css("color", "white");
-        $("#articleDateBar3").css("background-color", "#e6e6e6");
-        $("#articleDate3").css("color", "#4d4d4d");
+        $( "#articleBox3" ).animate({
+            backgroundColor: "#520184"
+        }, 200);
+
+        $( "#articleTitle3" ).animate({
+            color : "white"
+        }, 200);
+        $( "#articleAuthor3" ).animate({
+            color : "white"
+        }, 200);
+
+        $( "#articleDateBar3" ).animate({
+            backgroundColor : "#e6e6e6"
+        }, 200);
+
+        $( "#articleDate3" ).animate({
+            color : "#4d4d4d"
+        }, 200);
 
         $("#article3").css("border", "solid #520184")
 
