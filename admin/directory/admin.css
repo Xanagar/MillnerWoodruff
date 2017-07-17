@@ -1,33 +1,51 @@
 
-div.banner {
+.body {
 
-    position: fixed;
-    width: 100%;
-    margin-top: -15px;
-    height: 146px;
-    background-color: #222222;
+}
+.square {
+    text-align: center;
+    background-color: white;
+    padding-bottom: 2%;
+}
 
+.head img {
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    padding :5%;
 
+}
 
-
+.name{
+    line-height:0%;
+    /*font-size:0.7em;*/
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+    padding:5%;
 
 
 }
 
-h1.cmsTitle {
-
-
-    font-family: Comfortaa;
-    font-weight: normal;
-    font-size: 24px;
-}
-
-p {
-
-
-    font-family: Comfortaa;
-    color: #4d4d4d;
-    line-height: 32px;
-    size: 14px;
+.bio {
+    font-size:0.8em;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to bottom, white,transparent);
+    text-align: center;
+    -webkit-user-select: none; /* Chrome/Safari */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
 
 }
+.bio p{
+    width:75%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 100%;
+    height:inherit;
+    text-align: justify;
+}
+

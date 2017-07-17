@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="../favicon.png" sizes="16x16" />
     <meta charset="UTF-8">
     <meta name=”format-detection” content=”telephone=no”>
@@ -9,17 +9,58 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 
-    <script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5969c1ef191e1a0012335474&product=inline-share-buttons"></script>
-
-    <link rel="stylesheet" href="css/mw.css">
+    <link rel="stylesheet" href="../css/mw.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+
+    <script src="../js/plugins.js"></script>
+    <script src="../js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="../js/vendor/jquery-1.12.0.min.js"></script>
+
+
 </head>
-<body>
+<body >
 
 
 
-<div id ="banner" class="banner" style="box-shadow: 2.5px 2.5px 5px #666666; z-index: 9999; display: table-cell; vertical-align: middle; text-align: center">
+<script
+    src="https://code.jquery.com/color/jquery.color.plus-names-2.1.2.js"
+    integrity="sha256-MyufSJPYmyLJzomPsAOszwxMNH2iQOeZXhMAKfh04P8="
+    crossorigin="anonymous">
+
+
+</script>
+
+
+<div id="mySidenav" class="sidenav" style=" z-index: 999999999">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <a  style="color: #ffffff; font-family: Merriweather; font-size: 24px" >Email:</a>
+    <a  href="mailto:cpa@millnerwoodruff.com" style="color: #ffffff; font-family: Merriweather; font-size: 16px" >cpa@millnerwoodruff.com</a>
+    <a  style="color: #ffffff; font-family: Merriweather; font-size: 24px" >Phone:</a>
+    <a  style=" line-height: 36px; color: #ffffff; font-family: Merriweather; letter-spacing: 2px; font-size: 16px">(214)285-1522</a>
+    <a  style="color: #ffffff; font-family: Merriweather; font-size: 24px" >Fax:</a>
+    <a  style=" line-height: 36px; color: #ffffff; font-family: Merriweather; letter-spacing: 2px; font-size: 16px">(214)594-8270</a>
+</div>
+
+
+
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "100%";
+
+    }
+
+    /* Close/hide the sidenav */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+
+    }
+</script>
+
+
+
+<div id ="banner" class="banner" style="box-shadow: 2.5px 2.5px 5px #666666; z-index: 9999; display: table-cell; vertical-align: middle; text-align: center; top: 0px; margin-top: -15px;">
 
     <div>
 
@@ -40,7 +81,6 @@
         <!--<img id="banner-image" src="MW-img/Millner-Wooodruff-Banner.png" data-min-width-481="medium.png" />-->
 
 
-
         <a href="../">
 
 
@@ -52,16 +92,18 @@
 
 
         </a>
+
         <div id="bannerDiv">
 
 
 
-                <object id = "banner-image2" data="banner.svg" type="image/svg+xml" style=" margin-top: 24px; margin-bottom: 2px;  text-align: center">
-                    <img src="mobile-banner.png" />
-                </object>
+
+            <object id = "banner-image2" data="banner.svg" type="image/svg+xml" style=" margin-top: 24px; margin-bottom: 2px;  text-align: center">
+                <img src="mobile-banner.png" />
+            </object>
 
 
-          
+
 
         </div>
 
@@ -78,6 +120,8 @@
 
 
     </div>
+
+
 
     <div>
 
@@ -102,88 +146,53 @@
 
 </div>
 
-<div style="height: 150px">
 
 
-</div>
-<div style="text-align: center; align-content: center; margin-left: 50%">
-
-    <div style=" margin-left: -450px; width: 900px; ">
 
 
-        <div style="text-align: center">
 
 
-            <div class="titleBanner" style="box-shadow: 2.5px 2.5px 5px #666666;width: 100%; background-color: #520184; text-align: center; color: white; font-family: Merriweather; font-size: 28px; font-weight: lighter;  padding: 10px; padding-top: 7px; padding-bottom: 7px">
+<div id="mainBody" style="margin-top: 8vw; padding: 50px">
+
+    <div style="margin-bottom: 2.5vw; text-align: center">
+
+        <div class="titleBanner" style="box-shadow: 2.5px 2.5px 5px #666666;width: 100%; background-color: #520184; text-align: center; color: white; font-family: Merriweather; font-size: 28px; font-weight: lighter;  padding: 10px; padding-top: 7px; padding-bottom: 7px">
 
 
-                See the 2016 Holiday Newsletter
+            See the 2016 Holiday Newsletter
 
 
+        </div>
+
+        <div class="row" style="margin-bottom: 30px;">
+
+
+
+            <div style="width: 25%;box-shadow: 2.5px 2.5px 5px #666666;padding: 5px; background-color: #4d4d4d; margin-left: 10%; color: white; font-family: Merriweather; font-weight: lighter; margin-right: 30%">
+                Michael Woodruff
             </div>
 
-            <div class="row" style="margin-bottom: 30px;">
-
-
-
-                <div class="col-a-3" style="box-shadow: 2.5px 2.5px 5px #666666;padding: 5px; background-color: #4d4d4d; margin-left: 10%; color: white; font-family: Merriweather; font-weight: lighter; margin-right: 30%">
-                    Michael Woodruff
-                </div>
-
-                <div class="col-a-3" style="box-shadow: 2.5px 2.5px 5px #666666;padding: 5px; background-color: #4d4d4d; color: white; font-family: Merriweather; font-weight: lighter;">
-                    12-21-2016
-                </div>
-
-
-
-
+            <div  style="width: 25%;box-shadow: 2.5px 2.5px 5px #666666;padding: 5px; background-color: #4d4d4d; color: white; font-family: Merriweather; font-weight: lighter;">
+                12-21-2016
             </div>
-
-
-            <img src="christmas.jpg" style="box-shadow: 2.5px 2.5px 5px #666666;width: 80%">
-            <div class="sharethis-inline-share-buttons" style="width: 80%; margin-left: 10%; margin-top: 20px"></div>
-
-
-            <div style="width: 80%; text-align: left; margin-top: 40px; margin-left: 10%; color: #4d4d4d; font-family: Merriweather; line-height: 24px; margin-bottom: 20px">
-                Lorem ipsum dolor sit amet, mea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel. Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in. Id pri tibique lobortis. Autem vidisse maiorum et mel.
-
-                Lorem ipsum dolor sit amet, mea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel. Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in. Id pri tibique lobortis. Autem vidisse maiorum et mel.
-
-                Lorem ipsum dolor sit amet, mea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel. Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in. Id pri tibique lobortis. Autem vidisse maiorum et mel.
-                Lorem ipsum dolor sit amet, mea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel. Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in. Id pri tibique lobortis. Autem vidisse maiorum et mel.
-
-                Lorem ipsum dolor sit amet, mea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel. Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in. Id pri tibique lobortis. Autem vidisse maiorum et mel.
-
-                Lorem ipsum dolor sit amet, mea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel. Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in. Id pri tibique lobortis. Autem vidisse maiorum et mel.
-            </div>
-
-
-            <a href="../blog" style="text-decoration: none;">
-
-
-                <div id="seeMorePosts" style="text-decoration: none; border: solid #520184; width:200px; padding: 10px; font-family: Merriweather; color: #520184; text-align: center; margin-left: 600px;">
-
-                    See more posts
-
-                </div>
-
-
-
-            </a>
-
 
 
         </div>
 
 
-
     </div>
 
 
+
+    <div class="row" style="margin-top: 5vw">
+
+
+
+    </div>
+
 </div>
 
-
-<div  class="container-fluid" style="margin-top: 150px; background-color: #555555;">
+<div  class="container-fluid" style=" background-color: #555555; margin-top: 150px">
     <div id="bottom-bar" class="row-center" style="padding:75px">
         <div class="col" style="text-align: center">
             <h8 style="color: white">4325 Windsor Centre Trail, Suite 400
@@ -195,6 +204,10 @@
         <div class="col" style="text-align: center">
             <h8 style="color: white">cpa@millnerwoodruff.com</h8>
         </div>
+
+        <div class="col" style="text-align: center">
+            <h8 style="color: white">Fax:(214)594-8270</h8>
+        </div>
         <div class="col" style="text-align: center">
             <h8 style="color: white">Copyright © 2017 By Millner | Woodruff CPAs </h8>
         </div>
@@ -203,6 +216,8 @@
         </div>
     </div>
 </div>
+
+<!-- jQuery first, then Tether, then Bootstrap JS. -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
@@ -210,30 +225,112 @@
 <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
 <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-
-
 <script>
     $(document).ready(function(){
 
-        $( "#banner-image").hide().fadeIn(1000);
+
+        $("#seeMorePosts").hover(function() {
+
+
+
+
+
+            $( "#seeMorePosts" ).animate({
+                backgroundColor: "#520184"
+            }, 200);
+            $( "#seeMorePosts" ).animate({
+                color: "#ffffff"
+            }, 200);
+
+
+
+
+
+
+        }, function() {
+
+            $("#seeMorePosts").stop().css("background-color", "#ffffff");
+            $("#seeMorePosts").stop().css("color", "#520184");
+
+
+
+        });
+
+        $("#seeMorePosts2").hover(function() {
+
+
+
+
+
+            $( "#seeMorePosts2" ).animate({
+                backgroundColor: "#520184"
+            }, 200);
+            $( "#seeMorePosts2" ).animate({
+                color: "#ffffff"
+            }, 200);
+
+
+
+
+
+
+        }, function() {
+
+            $("#seeMorePosts2").stop().css("background-color", "#ffffff");
+            $("#seeMorePosts2").stop().css("color", "#520184");
+
+
+
+        });
         $( "#contactInfo").hide().fadeIn(2000);
         $( "#contactInfo2").hide().fadeIn(2000);
+        $( "#contactInfo3").hide().fadeIn(2000);
 
-
-
-    $("#seeMorePosts").hover(function() {
-
+    });
 
 
 
 
-        $( "#seeMorePosts" ).animate({
+    $("#article1").hover(function() {
+
+
+
+
+
+        $( "#articleBox1" ).animate({
             backgroundColor: "#520184"
         }, 200);
-        $( "#seeMorePosts" ).animate({
-            color: "#ffffff"
+
+        $( "#articleTitle1" ).animate({
+            color : "white"
+        }, 200);
+        $( "#articleAuthor1" ).animate({
+            color : "white"
         }, 200);
 
+        $( "#articleDateBar1" ).animate({
+            backgroundColor : "#e6e6e6"
+        }, 200);
+
+        $( "#articleDate1" ).animate({
+            color : "#4d4d4d"
+        }, 200);
+
+
+
+
+
+        /*
+
+
+         $("#articleBox1").css("background-color", "#520184");
+         $("#articleTitle1").css("color", "white");
+         $("#articleAuthor1").css("color", "white");
+         $("#articleDateBar1").css("background-color", "#e6e6e6");
+         $("#articleDate1").css("color", "#4d4d4d");
+
+         */
+        $("#article1").css("border", "solid #520184")
 
 
 
@@ -241,15 +338,92 @@
 
     }, function() {
 
-        $("#seeMorePosts").stop().css("background-color", "#ffffff");
-        $("#seeMorePosts").stop().css("color", "#520184");
-
+        $("#articleBox1").stop().css("background-color", "#e6e6e6");
+        $("#articleTitle1").stop().css("color", "#4d4d4d");
+        $("#articleAuthor1").stop().css("color", "#4d4d4d");
+        $("#articleDateBar1").stop().css("background-color", "#292b2c");
+        $("#articleDate1").stop().css("color", "white");
+        $("#article1").stop().css("border", "none")
 
 
     });
 
+    $("#article2").hover(function() {
+
+        $( "#articleBox2" ).animate({
+            backgroundColor: "#520184"
+        }, 200);
+
+        $( "#articleTitle2" ).animate({
+            color : "white"
+        }, 200);
+        $( "#articleAuthor2" ).animate({
+            color : "white"
+        }, 200);
+
+        $( "#articleDateBar2" ).animate({
+            backgroundColor : "#e6e6e6"
+        }, 200);
+
+        $( "#articleDate2" ).animate({
+            color : "#4d4d4d"
+        }, 200);
+
+        $("#article2").css("border", "solid #520184")
+
+
+    }, function() {
+
+        $("#articleBox2").stop().css("background-color", "#e6e6e6");
+        $("#articleTitle2").stop().css("color", "#4d4d4d");
+        $("#articleAuthor2").stop().css("color", "#4d4d4d");
+        $("#articleDateBar2").stop().css("background-color", "#292b2c");
+        $("#articleDate2").stop().css("color", "white");
+        $("#article2").stop().css("border", "none")
+
     });
+
+    $("#article3").hover(function() {
+        $( "#articleBox3" ).animate({
+            backgroundColor: "#520184"
+        }, 200);
+
+        $( "#articleTitle3" ).animate({
+            color : "white"
+        }, 200);
+        $( "#articleAuthor3" ).animate({
+            color : "white"
+        }, 200);
+
+        $( "#articleDateBar3" ).animate({
+            backgroundColor : "#e6e6e6"
+        }, 200);
+
+        $( "#articleDate3" ).animate({
+            color : "#4d4d4d"
+        }, 200);
+
+        $("#article3").css("border", "solid #520184")
+
+
+    }, function() {
+
+        $("#articleBox3").stop().css("background-color", "#e6e6e6");
+        $("#articleTitle3").stop().css("color", "#4d4d4d");
+        $("#articleAuthor3").stop().css("color", "#4d4d4d");
+        $("#articleDateBar3").stop().css("background-color", "#292b2c");
+        $("#articleDate3").stop().css("color", "white");
+        $("#article3").stop().css("border", "none")
+
+    });
+
+
+
+
+
 
 </script>
+
+
 </body>
 </html>

@@ -1,131 +1,233 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html class="no-js" lang="">
 <head>
-    <meta charset="UTF-8">
-    <title>Xanagar Admin Interface</title>
+    <meta charset="utf-8">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+
     <link rel="stylesheet" href="admin.css">
-    <link rel="icon" type="image/png" href="favicon2.png" sizes="16x16" />
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="../modernizr-2.8.3.min.js"></script>
 
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
 </head>
 <body>
+<script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+<script src="../js/plugins.js"></script>
+<script src="../js/main.js"></script>
 
-<div class="banner" style="box-shadow: 2.5px 2.5px 5px #666666; z-index: 9999; display: table-cell; vertical-align: middle">
+<div class="container">
+    <div class="row" style="padding:50px; position: inherit">
+        <div class="col-11" style="margin: auto; padding: 10px">
 
-    <div class="row">
-
-
-        <a class="col-sm-4" href="http://xanagar.com">
-
-            <img src="Xanagar%20Logo%20White.png" style="  margin-left: 48px; display: inline; margin-right: 72px; margin-top: 48px; width: 179.43px; height: 50.57px;"/>
-
-
-        </a>
-
-        <div style="margin-right: 0px; padding-right: 0px" class="col-sm-2">
-
-            <label style="color: #ffffff; margin-left: 32px; margin-top: 72px" for="sel1" >Select page</label>
+            <div class="row" style="padding:2px; text-align: center">
+                <div class="col-4">
+                    <img src="sample_portrait.jpg" style="width: inherit">
+                </div>
+                <div class="col-sm-8" style="text-align: left">
+                    <h3>Michael Woodruff  |  President</h3>
+                    <p style="font-size: 0.9em">Lorem ipsum dolor sit amet, mea ex ferri adhuc. Nec inciderint voluptatibus in.
+                        Minim quidam definiebas eu ius. Ea has eirmod petentium maluisset, nusquam interesset ne vel.
+                        Dico legendos consectetuer eam id, mei diam saepe suavitate at, quot inermis inciderint his in.
+                        Id pri tibique lobortis. Autem vidisse maiorum et mel. Id saepe cetero definiebas vel.
+                        Vel solet verterem electram ex, ex minim consequat qui. At stet choro eos.Lorem ipsum dolor sit amet,
+                        mea ex ferri adhuc. Nec inciderint voluptatibus in. Minim quidam definiebas eu ius. Ea has eirmo
+                    </p>
+                </div>
+            </div>
         </div>
 
-
     </div>
-
-    <div class="row" >
-
-        <p class="col-sm-4" style=" color: #ffffff; margin-left: 48px; margin-top: 8px; font-family: Comfortaa; font-weight: lighter;  font-size: 20px">
-            Millner | Woodruff CPAs Content Management
-        </p>
-
-
-
-
-
-        <div style="margin-left: 0px; padding-left: 0px" class="form-group col-sm-2">
-
-
-            <select class="form-control" id="pages">
-                <option value="main">main</option>
-                <option selected value="directory">directory</option>
-
-            </select>
-        </div>
-
-
-    </div>
-
-
-
+</div>
+<div id="mainDiv" class="container" style="padding-bottom: 10%">
 
 </div>
 
 
 
-<div style="padding-top: 150px" class="container">
-    <h2>Bordered Table</h2>
-    <p>The .table-bordered class adds borders to a table:</p>
-    <table class="table table-bordered">
-        <thead>
-        <tr>
-            <th>Firstname</th>
-            <th>Lastname</th>
-            <th>Email</th>
-            <th>Action</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>John</td>
-            <td>Doe</td>
-            <td>john@example.com</td>
-        </tr>
-        <tr>
-            <td>Mary</td>
-            <td>Moe</td>
-            <td>mary@example.com</td>
-        </tr>
-        <tr>
-            <td>July</td>
-            <td>Dooley</td>
-            <td>july@example.com</td>
-        </tr>
-
-        </tbody>
-    </table>
 </div>
 
-
-
-
-
-
-
-
-
-
+</body>
 
 <script>
 
 
 
-    $("#pages").change(function () {
-        document.location = '../' + $("#pages").val();
-    });
 
 
+
+
+    var dict = {
+        0: ["Dustin Johnson" ,"Manager", "HeadShot.png", "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."],
+        1: ["Jake Smith" ,"Accountant", "HeadShot.png", "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."],
+        2: ["Sandra Jones", "Accountant", "HeadShot.png", "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."],
+        3: ["Neal Tyson", "Accountant", "HeadShot.png", "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."],
+        4: ["Noah Brown", "Accountant", "HeadShot.png", "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga."]
+    };
+
+
+    var makeImage = (imgsrc) => {
+        var img = document.createElement('img');
+        img.src = "HeadShot.png";
+        img.className = "head";
+
+        var row = document.createElement('div');
+        row.className = "row head";
+        row.appendChild(img);
+        return row
+    }
+
+
+    var makeNamePosition = (name, position, bio) => {
+        var h3 = document.createElement('h3')
+        var p = document.createElement('p')
+        h3.innerHTML = name
+        p.innerHTML = position
+        p.style.fontStyle = 'italic'
+
+        var col = document.createElement('div')
+        col.className = "col name"
+        col.appendChild(h3)
+        col.appendChild(p)
+
+        h3.id=  "hover_"+name.toString()
+
+
+
+        var bio_row = makeBio(bio, name)
+        col.style.width = '70%'
+
+        col.style.borderLeft = 'solid transparent'
+        col.style.borderWidth = '0.5em'
+        col.onmouseover = () => {
+            h3.style.color = 'purple'
+            p.style.color = 'grey'
+            col.style.borderLeft = 'solid purple'
+            col.style.borderWidth = '0.5em'
+        }
+        col.onmouseout = () => {
+            p.style.color = 'black'
+            h3.style.color = 'black'
+            col.style.borderLeft = 'solid transparent'
+            col.style.borderWidth = '0.5em'
+
+        }
+
+
+
+
+        bio_row.style.display = "none"
+
+        bio_row.onmouseover = () => {
+            bio_row.style.color = 'gray'
+        }
+        bio_row.onmouseout = () => {
+            bio_row.style.color = 'black'
+
+        }
+        col.onclick = () => {
+            if (bio_row.style.display == 'none') {
+                bio_row.style.display = 'block'
+                col.style.display = 'none'
+            } else {
+                bio_row.style.display = 'none'
+                col.style.display = 'block'
+//                bio_row.style.color = 'purple'
+            }
+        }
+        bio_row.onclick = () => {
+            if (bio_row.style.display == 'none') {
+                bio_row.style.display = 'block'
+                col.style.display = 'none'
+            } else {
+                bio_row.style.display = 'none'
+                col.style.display = 'block'
+            }
+        }
+
+        var name_row = document.createElement('div')
+        name_row.className = "row"
+        name_row.appendChild(col)
+
+
+
+
+        var final_col = document.createElement('div')
+        final_col.appendChild(name_row)
+        final_col.appendChild(bio_row)
+
+        var final_row = document.createElement('div')
+        final_row.appendChild(final_col)
+
+        return final_row
+    }
+
+    var makeBio = (bio, name) => {
+        var p = document.createElement('p');
+        p.innerHTML = bio
+
+        var column = document.createElement('div')
+        column.className = "col bio"
+        column.appendChild(p)
+        column.id = "bio_" + name.toString()
+        column.style.display = 'block'
+        var row = document.createElement('div')
+        row.className = "row"
+        row.appendChild(column)
+
+        return row
+
+    }
+
+
+
+    window.onload = () => {
+        var insertDiv = document.getElementById("mainDiv")
+        var rowElement = document.createElement("div")
+        rowElement.className = "row"
+
+        for (var key in dict) {
+
+
+            var name = dict[key][0]
+            var position = dict[key][1]
+            var imgsrc = dict[key][2]
+            var bio = dict[key][3]
+
+
+            var imgElement = makeImage(imgsrc)
+
+            var nameElement = makeNamePosition(name, position, bio)
+            var mainElement = document.getElementById("mainDiv")
+
+            var colElement = document.createElement('div')
+
+            if (key%3 == 0) {
+                colElement.className = "col-md-4 col-sm-12 square pull-left"
+            }
+            else if (key%3 == 2 ){
+                colElement.className = "col-md-4 col-sm-12 square pull-right"
+            } else {
+                colElement.className = "col-md-4 col-sm-12 square"
+            }
+            colElement.appendChild(imgElement)
+            colElement.appendChild(nameElement)
+//                colElement.appendChild(bioElement)
+
+
+            rowElement.appendChild(colElement)
+        }
+        mainElement.appendChild(rowElement)
+
+
+    }
 
 </script>
-
-
-
-
-
-
-</body>
 </html>
