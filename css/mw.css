@@ -553,9 +553,31 @@ a.testHover:hover {
     padding-left: 5vw; padding-right: 5vw;
 }
 
+#bodyBox {
+
+    width: 100%;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.blogArticle {
+
+    width: 30%;
+    margin-left: 5%;
+
+}
 
 @media only screen and (max-width: 912px) {
 
+
+
+
+    .blogArticle {
+
+        width: 100%;
+        margin-left: 0%;
+
+    }
 
 
     #postBody {
