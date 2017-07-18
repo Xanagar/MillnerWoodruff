@@ -559,7 +559,7 @@ a.testHover:hover {
 
 
     #postBody {
-        padding-left: 1vw; padding-right: 1vw;
+        padding-left: 0vw; padding-right: 0vw;
     }
 
     .ArticleInfo {
